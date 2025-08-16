@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moje první webová stránka</title> 
+  </head>
+  <body>
+    <p>Toto je první odstavec</p>
+    <p>Toto je první věta druhého odstavce. <br /> Toto je druhá věta druhého odstavce</p>
+    <p>Pro zneškodnění výbušniny přestřihněte <strong>červený</strong> drát, modrý drát může zapříčinit explozi.</p>
+    <p>Spusťte editor registru příkazem <em>regedit.exe</em>. <strong>Neručím za případné škody!</strong></p>
+    <p><strong><em>Tento text bude vykreslen jako kurzíva i jako tučný.</em></strong></p>
+    <p>Často vídávám psát <u>připoměl</u>, i když to není gramaticky správně.</p>
+    <p>Vítejte v České republice. Za hodinu internetu nyní na cestách zaplatíte
+<s>10 Kč</s> 200 Kč.</p>
+  </body>
+</html>
