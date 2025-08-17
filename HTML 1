@@ -4,21 +4,23 @@
     <meta charset="utf-8" />
     <title>Moje první webová stránka</title> 
   </head>
+
   <body>
     <h1>Můj první web</h1>
     <p>Vítejte na mém prvním webu, psát weby se teprve učím, ale myslím, že mi to docela jde.</p>
+    <p><img src="obrazky/avatar.jpg" alt="Programátor HoBi" width="30%" height="30%"/></p>
 
-<h2>O mně</h2>
+    <h2>O mně</h2>
     <p>Jmenuji se Dominik Vlasák a je mi 28 let. Aktuálně se živím dekorem skla</p>
     <p>Rád čtu knihy, sleduji filmy, cestuji, jezdím na motorce, běhám maratony. </p>
     <p>Mým hlavním koníčkem (a doufám že jednou i zaměstnáním) je <strong>programování</strong>!</p>
 
-<h2>Dovednosti</h2>
+    <h2>Dovednosti</h2>
     <p>Dovedu od základu postavit PC sestavu na přání zákazníka. Nově jsem proniknul do <strong>HTML</strong>. Základy tohoto jazyka ovládám.</p>
     <p>
-      <img src="C:\Users\laida\OneDrive\Devs věci\prvni_ web\obrazky\avatar.jpg" alt="Programátor HoBi" width="30%" height="30%"/>
       <a href="http://www.google.com">odkaz na Google</a>
       <a href="http://www.mujweb.cz/soubor.zip">Stáhnout soubor.zip</a>
     </p>
   </body>
+
 </html>
