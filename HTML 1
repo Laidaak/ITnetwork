@@ -2,13 +2,14 @@
 <html lang="cs-cz">
   <head>
     <meta charset="utf-8" />
-    <title>Moje první webová stránka</title> 
+    <title>Moje první webová stránka</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" /> 
   </head>
 
   <body>
     <h1>Můj první web</h1>
     <p>Vítejte na mém prvním webu, psát weby se teprve učím, ale myslím, že mi to docela jde.</p>
-    <p><img src="obrazky/avatar.jpg" alt="Programátor HoBi" width="30%" height="30%"/></p>
+    <p class="centrovany"><img src="obrazky/avatar.jpg" alt="Programátor HoBi" width="30%" height="30%"/></p>
 
     <h2>O mně</h2>
     <p>Jmenuji se Dominik Vlasák a je mi 28 let. Aktuálně se živím dekorem skla</p>
@@ -24,4 +25,14 @@
     </p>
   </body>
 
-</html>
+</html> 
+
+
+
+body {font-family: Verdana;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center;
+        color:#0a294b;
+        font-family: Arial;} 
+
+.centrovany {text-align:center}    
