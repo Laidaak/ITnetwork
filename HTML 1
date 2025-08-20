@@ -29,10 +29,21 @@
 
 
 
-body {font-family: Verdana;}
+@font-face {
+        font-family: Poppins;
+        src: url(fonty/Poppins-Regular.ttf);
+        font-weight: normal;}
+
+@font-face {
+        font-family: Poppins;
+        src: url(fonty/Poppins-ExtraBold.ttf);
+        font-weight: bold;}
 
 h1, h2, h3, h4, h5, h6 {text-align: center;
-        color:#0a294b;
-        font-family: Arial;} 
+        color:#0a294b;} 
 
 .centrovany {text-align:center}    
+
+body {font-family: Poppins;}
+
+h2{font-size: 1,7em;}
