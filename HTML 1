@@ -20,12 +20,12 @@
             </p>
 
             <p>
-                Jmenuji se Honza Bittner a je mi 16 let. Chodím na Střední průmyslovou školu v České Lípě na obor IT.
+                Jmenuji se Dominik Vlasák a je mi 28 let.  Živí mě povrchová úprava skla.
                 Kontaktovat mě můžete na <a href="kontakt.html">kontaktní stránce</a>.
             </p>
 
             <p>
-                Rád čtu a někdy (hlavně v létě) i sportuju.
+                Rád běhám maratony, jezdím na motorce, cestuji, čtu, koukám na filmy anebo trávím čas s blízkými.
             </p>
 
             <p>
@@ -36,6 +36,8 @@
             <p>
                 Co umím, jsem sepsal na stránce <a href="dovednosti.html">dovednosti</a>.
             </p>
+
+            <div class="cistic"></div>
         </section>
 
 
@@ -46,7 +48,7 @@
       </p>  
   </body>
 
-</html>  
+</html> 
 
 
 
@@ -60,14 +62,62 @@
         src: url(fonty/Poppins-ExtraBold.ttf);
         font-weight: bold;}
 
-h1, h2, h3, h4, h5, h6 {text-align: center;
-        color:#0a294b;
-        text-shadow:  2px 2px 0 #88abd1, 3px 3px 7px #666666;} 
+.centrovany {
+        text-align:center
+}    
 
-.centrovany {text-align:center}    
+body {
+        font-family: Poppins;
+        background:#F9F9F9
+}
 
-body {font-family: Poppins;}
+h2{
+        font-size: 1,7em;
+}
 
-h2{font-size: 1,7em;}
+.avatar {
+        width: 300px;
+        float: right;
+        padding-left: 10px;
+        filter: grayscale(1);
+}
 
-.avatar {width: 300px}
+article header {
+        height: 80px;
+}
+
+article {
+        max-width: 960px;
+        margin: 0 auto;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    color: #00386B;
+}
+
+article h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article section p {
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
+}
+
+.cistic {clear: both;
+}
