@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="cs-cz">
+
   <head>
     <meta charset="utf-8" />
-    <title>Moje první webová stránka</title> 
+    <meta name="description" content="Osobní portfolio programátora Laidaaka." />
+    <meta name="keywords" content="kontakt, programátor, programování, zakázka, Laidaak" />
+    <meta name="author" content="Laidaak" />
+    <title>Kontaktujte mě</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" /> 
+    <link rel="shortcut icon" href="obrazky/ikona.ico" />
   </head>
 
   <body>
-    <h1>Můj první web</h1>
-    <p>Vítejte na mém prvním webu, psát weby se teprve učím, ale myslím, že mi to docela jde.</p>
-    <p><img src="obrazky/avatar.jpg" alt="Programátor HoBi" width="30%" height="30%"/></p>
+    <header>
+      <div id="logo">
+        <h1>Dominik<span>Vlasák</span></h1>
+        <small>webdeveloper</small>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="omne.html">O mně</a></li>
+          <li><a href="dovednosti.html">Dovednosti</a></li>
+          <li><a href="reference.html">Reference</a></li>
+          <li class="aktivni"><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2>O mně</h2>
-    <p>Jmenuji se Dominik Vlasák a je mi 28 let. Aktuálně se živím dekorem skla</p>
-    <p>Rád čtu knihy, sleduji filmy, cestuji, jezdím na motorce, běhám maratony. </p>
-    <p>Mým hlavním koníčkem (a doufám že jednou i zaměstnáním) je <strong>programování</strong>!</p>
-     <p> Kontaktovat mě můžete na <a href="kontakt.html">kontaktní stránce</a>.</p>
+    <article>
+        <header>
+          <h1>Kontakt</h1>
+        </header>  
+          <section>
+                <p>
+                    <img src="obrazky/email.png" alt="email" class="vlevo" />
+                    Pokud mi chcete něco sdělit, napište mi email na <strong>dominik (tečka) vlasak (tečka) dev (zavináč) gmail (tečka) com nebo využijte formuláře níže</strong>.
+                </p>
+                <p class="centrovany">
+                    <!-- itnetwork.cz MAILFORM -->
+                    <iframe frameborder="0" scrolling="no" width="500px" height="220px"
+                    src="https://www.itnetwork.cz/api/Service-MailForm/68acb7e91ba4b9.54608188">
+                    </iframe>
+                    <!-- itnetwork.cz MAILFORM END -->
+                </p>     
+            </section>
 
-    <h2>Dovednosti</h2>
-    <p>Dovedu od základu postavit PC sestavu na přání zákazníka. Nově jsem proniknul do <strong>HTML</strong>. Základy tohoto jazyka ovládám.</p>
-    <p>
-      <a href="http://www.google.com">odkaz na Google</a>
-      <a href="http://www.mujweb.cz/soubor.zip">Stáhnout soubor.zip</a>
-    </p>
+
+    </article>
+      <p>
+        <a href="http://www.google.com">odkaz na Google</a>
+        <a href="http://www.mujweb.cz/soubor.zip">Stáhnout soubor.zip</a>
+      </p>
+    <footer>
+      Vytvořil &copy;Laidaak 2025 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
+    </footer>   
   </body>
 
-</html>
+</html> 
