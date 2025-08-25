@@ -96,6 +96,8 @@ body {
         background:#F9F9F9;
         color: #414042;
         box-sizing: border-box;
+        padding: 100px 0px 0px 0px;
+        min-width: 960px;
 }
 
 h2{
@@ -172,6 +174,9 @@ body > header {
         display: flex;
         justify-content: space-evenly;
         margin: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
 }
 
 #logo {
@@ -229,4 +234,34 @@ nav ul a {
 
 nav ul a:hover, .aktivni a {
         border-bottom: 2px solid #EF6534;
+}
+
+.kontakt-tlacitko {
+        background: #EF6534;
+        padding: 10px 20px;
+        border-radius: 20px;
+}
+
+.kontakt-tlacitko:hover, .reference-tlacitko:hover {
+        filter: brightness(115%) contrast(85%);
+        border: 0;
+}
+
+html {
+        background: #414042;
+}
+
+footer {
+        box-sizing: border-box;
+        text-align: center;
+        height: 100px;
+        color: white;
+        background: #414042;
+        padding: 50px 0 0 0;
+        clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+
+footer a {
+        color: white;
+        text-decoration: none;
 }
