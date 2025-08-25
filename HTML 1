@@ -2,8 +2,12 @@
 <html lang="cs-cz">
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Osobní portfolio programátora Laidaaka." />
+    <meta name="keywords" content="portfolio, programátor, Laidaak" />
+    <meta name="author" content="Laidaak" />
     <title>Moje první webová stránka</title>
     <link rel="stylesheet" href="styl.css" type="text/css" /> 
+    <link rel="shortcut icon" href="obrazky/ikona.ico" />
   </head>
 
   <body>
@@ -65,7 +69,7 @@
         <a href="http://www.mujweb.cz/soubor.zip">Stáhnout soubor.zip</a>
       </p>
     <footer>
-      Vytvořil &copy;HoBi 2025 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
+      Vytvořil &copy;Laidaak 2025 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
     </footer>   
   </body>
 
