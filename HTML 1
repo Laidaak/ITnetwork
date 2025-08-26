@@ -48,12 +48,7 @@
             </p>
 
             <p>
-                Mým hlavním koníčkem (a doufám že jednou i zaměstnáním) je <strong>programování</strong>!
-            </p>
-
-            <h2>Dovednosti</h2>
-            <p>
-                Co umím, jsem sepsal na stránce <a href="dovednosti.html">dovednosti</a>.
+                Mým hlavním koníčkem (a doufám že jednou i zaměstnáním) je <strong>programování!</strong>
             </p>
 
             <div class="cistic"></div>
@@ -268,4 +263,15 @@ footer {
 footer a {
         color: white;
         text-decoration: none;
+}
+
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+
+#dovednosti {
+        border-collapse: collapse;
 }
