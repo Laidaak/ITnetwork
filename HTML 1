@@ -1,277 +1,67 @@
 <!DOCTYPE html>
 <html lang="cs-cz">
-  <head>
+    <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Osobní portfolio programátora Laidaaka." />
-    <meta name="keywords" content="portfolio, programátor, Laidaak" />
+    <meta name="description" content="Mé dovednosti, mezi které patří programování v Javě, Pascalu a HTML" />
+    <meta name="keywords" content="programátor, dovednosti, java, html, pascal, programování, Laidaak" />
     <meta name="author" content="Laidaak" />
-    <title>Moje první webová stránka</title>
+    <title>Dovednosti</title>
     <link rel="stylesheet" href="styl.css" type="text/css" /> 
     <link rel="shortcut icon" href="obrazky/ikona.ico" />
   </head>
 
-  <body>
-    <header>
-      <div id="logo">
-        <h1>Dominik<span>Vlasák</span></h1>
-        <small>webdeveloper</small>
-      </div>
-      <nav>
-        <ul>
-          <li class="aktivni"><a href="index.html">Domů</a></li>
-          <li><a href="omne.html">O mně</a></li>
-          <li><a href="dovednosti.html">Dovednosti</a></li>
-          <li><a href="reference.html">Reference</a></li>
-          <li><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
-    <article>
+    <body>
         <header>
-          <h1>O mně</h1>
-        </header>  
-          <section>
+            <div id="logo">
+                <h1>Dominik<span>Vlasák</span></h1>
+                <small>webdeveloper</small>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="omne.html">O mně</a></li>
+                    <li class="aktivni"><a href="dovednosti.html">Dovednosti</a></li>
+                    <li><a href="reference.html">Reference</a></li>
+                    <li><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <img src="obrazky/avatar.jpg" class="avatar" alt="Programátor HoBi" />
-
-            <p>
-                Vítejte na mém prvním webu, psát weby se teprve učím, ale myslím, že mi to docela jde.
-            </p>
-
-            <p>
-                Jmenuji se Dominik Vlasák a je mi 28 let.  Živí mě povrchová úprava skla.
-                Kontaktovat mě můžete na <a href="kontakt.html">kontaktní stránce</a>.
-            </p>
-
-            <p>
-                Rád běhám maratony, jezdím na motorce, cestuji, čtu, koukám na filmy anebo trávím čas s blízkými.
-            </p>
-
-            <p>
-                Mým hlavním koníčkem (a doufám že jednou i zaměstnáním) je <strong>programování!</strong>
-            </p>
-
-            <div class="cistic"></div>
-            <p class="tlacitko-odstavec">
-              <a href="reference.html" class="reference-tlacitko">Moje reference</a>
-            </p>
+        <article>
+        <section>
+            <table id="dovednosti">
+                <tr class="centrovany">
+                    <td>
+                        <img src="obrazky/html.png" alt="HTML" />
+                    </td>
+                    <td>
+                        <img src="obrazky/java.png" alt="Java" />
+                    </td>
+                    <td>
+                        <img src="obrazky/pascal.png" alt="Pascal" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>HTML</h2>
+                        <p>S HTML začínám a umím vytvořit jednoduché webové stránky, jako jsou tyto.</p>
+                    </td>
+                    <td>
+                        <h2>Java</h2>
+                        <p>Javu se učím z tutoriálů na itnetwork.cz, dokáži tvořit jednoduché konzolové i okenní aplikace a programovat objektově.</p>
+                    </td>
+                    <td>
+                        <h2>Pascal</h2>
+                        <p>Pascal nás učí ve škole, ale raději se učím moderní jazyky z ITnetwork.</p>
+                    </td>
+                </tr>
+            </table>
         </section>
+        </article>
+        <footer>
+    Vytvořil &copy;Laidaak 2025 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
+</footer>
 
-
-    </article>
-      <p>
-        <a href="http://www.google.com">odkaz na Google</a>
-        <a href="http://www.mujweb.cz/soubor.zip">Stáhnout soubor.zip</a>
-      </p>
-    <footer>
-      Vytvořil &copy;Laidaak 2025 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
-    </footer>   
-  </body>
-
-</html> 
-
-
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('fonty/Poppins-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('fonty/Poppins-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-.centrovany {
-        text-align:center
-}    
-
-body {
-        font-family: 'Poppins', sans-serif;
-        background:#F9F9F9;
-        color: #414042;
-        box-sizing: border-box;
-        padding: 100px 0px 0px 0px;
-        min-width: 960px;
-}
-
-h2{
-        font-size: 1,7em;
-}
-
-.avatar {
-        width: 300px;
-        float: right;
-        padding-left: 10px;
-        filter: grayscale(1);
-}
-
-article header {
-        height: 80px;
-}
-
-article {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 50px 50px 10px 50px;
-}
-
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-    color: #00386B;
-    padding: 10px 0;
-}
-
-article h1 {
-    font-size: 2.3em;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: max-content;
-    border-bottom: 4px solid #EF6534;
-    margin: 0;
-}
-
-article h2 {
-    font-size: 2em;
-}
-
-article section p {
-    line-height: 1.8em;
-    margin-bottom: 1.5em;
-}
-
-article section a {
-    color: #EF6534;
-}
-
-.cistic {clear: both;
-}
-
-.reference-tlacitko {
-        background: #70B73A;
-        color: white;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 25px;
-}
-
-body > header {
-        height: 100px;
-        width: 100%;
-        background: #00386B;
-        color:white;
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-}
-
-#logo {
-        height: 40px;
-        margin: auto 0 auto 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: url('obrazky/logo.png') no-repeat;
-        background-size: 40px 40px;
-}
-
-#logo > * {
-        margin: 0 0 0 50px;
-}
-
-#logo h1 {
-        font-weight: normal;
-        font-size: 1.5em;
-        line-height: 1.2em;
-        color: white;
-}
-
-#logo h1 span {
-        font-weight: bold;
-        text-transform: uppercase;
-}
-
-#logo small {
-        text-transform: uppercase;
-        font-size: 0.85em;
-}
-
-nav ul {
-        margin: 0;
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        height: 100%;
-}
-
-nav ul li {
-        padding: 0 25px;
-        margin: 0 5px;
-        font-size: 1em;
-        line-height: 4.3em;
-}
-
-nav ul a {
-        color: white;
-        padding: 8px 0;
-        text-decoration: none;
-        text-transform: uppercase;
-}
-
-nav ul a:hover, .aktivni a {
-        border-bottom: 2px solid #EF6534;
-}
-
-.kontakt-tlacitko {
-        background: #EF6534;
-        padding: 10px 20px;
-        border-radius: 20px;
-}
-
-.kontakt-tlacitko:hover, .reference-tlacitko:hover {
-        filter: brightness(115%) contrast(85%);
-        border: 0;
-}
-
-html {
-        background: #414042;
-}
-
-footer {
-        box-sizing: border-box;
-        text-align: center;
-        height: 100px;
-        color: white;
-        background: #414042;
-        padding: 50px 0 0 0;
-        clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
-}
-
-footer a {
-        color: white;
-        text-decoration: none;
-}
-
-#dovednosti td {
-    width: 33%;
-    padding: 10px;
-    vertical-align: top;
-    border: 1px solid gray;
-}
-
-#dovednosti {
-        border-collapse: collapse;
-}
+    </body>
+</html>
