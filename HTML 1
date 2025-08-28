@@ -8,6 +8,10 @@
         <link rel="shortcut icon" href="obrazky/ikona.ico" />
         <link rel="stylesheet" href="styl.css" type="text/css" />
         <title>Reference</title>
+        <link rel="stylesheet" href="styl.css" type="text/css" />
+        <link rel="stylesheet" href="css/lightbox.min.css" type="text/css" media="screen" />
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
     </head>
 
     <body>
@@ -33,14 +37,14 @@
                 <p>Níže naleznete ukázky mých dosavadních prací. Mohu vám nabídnout tvorbu podobného softwaru na zakázku.</p>
 
                 <div id="reference">
-                    <a href="obrazky/kalkulacka_java.png" title="Kalkulačka v Javě">
-                        <img src="obrazky/kalkulacka_java_nahled.xcf" alt="Kalkulačka v Javě" />
+                    <a href="obrazky/kalkulacka_java.png" title="Kalkulačka v Javě" rel="lightbox[reference]">
+                        <img src="obrazky/kalkulacka_java_nahled.png" alt="Kalkulačka v Javě" />
                     </a>
-                    <a href="obrazky/miny_pascal.png" title="Miny v Pascalu">
-                        <img src="obrazky/miny_pascal_nahled.xcf" alt="Miny v Pascalu" />
+                    <a href="obrazky/miny_pascal.png" title="Miny v Pascalu" rel="lightbox[reference]">
+                        <img src="obrazky/miny_pascal_nahled.png" alt="Miny v Pascalu" />
                     </a>
-                    <a href="obrazky/hobi_web.jpg" title="Web v HTML a CSS">
-                        <img src="obrazky/hobi_web_nahled.xcf" alt="Web v HTML a CSS" />
+                    <a href="obrazky/hobi_web.png" title="Web v HTML a CSS" rel="lightbox[reference]">
+                        <img src="obrazky/hobi_web_nahled.jpg" alt="Web v HTML a CSS" />
                     </a>
                 </div>
             </section>
